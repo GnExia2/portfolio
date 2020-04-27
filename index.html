@@ -52,11 +52,11 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
+        <header class="masthead text-black text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
                 <!-- Masthead Heading-->
-                <h1 class="text-uppercase mb-0">Hi, I'm Garrick. Nice to meet you.</h1>
+                <h1 class="text-uppercase mb-0">Front-End Developer</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -64,14 +64,45 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Front-End Developer</p>
+                <p class="masthead-subheading font-weight-light mb-0">Hi, I'm Garrick. Nice to meet you. </br>Welcome to my site!</p>
             </div>
         </header>
+
+        <!-- About Section-->
+        <section class="page-section bg-primary text-black mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-black">About Me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                      <p class="lead">
+                        Hello, my name is Garrick. I'm a normalish asian dude living in the Bay Area.
+                      </p>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                      <p class="lead">
+                        Hello, my name is Garrick. I'm a Web Developer
+                      </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
+
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">My Work</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">technical projects</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -86,7 +117,7 @@
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                        <img class="img-fluid" src="assets/img/portfolio/crown.png" alt="" />
                     </div>
                   </div>
                 <!-- Portfolio Item 2-->
@@ -110,33 +141,6 @@
               </div>
             </div>
           </div>
-        </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto">
-                      <p class="lead">
-                        Hello, my name is Garrick. I'm a Web Developer
-                      </p>
-                    </div>
-                    <div class="col-lg-4 mr-auto">
-                      <p class="lead">
-                        Hello, my name is Garrick. I'm a Web Developer
-                      </p>
-                    </div>
-                </div>
-                <!-- About Section Button-->
-            </div>
         </section>
         <!-- Contact Section-->
         <section class="page-section" id="contact">
@@ -226,6 +230,8 @@
         <!-- Copyright Section-->
         <section class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright © Your Website 2020</small></div>
+            Made with
+            <a href='https://getbootstrap.com/'><img class="footer-logo" src="assets/img/portfolio/Bootstrap_logo.png" alt="" /></a>
         </section>
 
 
@@ -259,9 +265,11 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/Crown-Clothing.png" alt="" />
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Crown-Clothing.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Ecommerce Projects for shopping clothing items.</br> Created with React, Redux, Firebase and Stripe API.</p>
+                                    <button class='btn'><a href='https://github.com/GnExia2/crown-clothing' target="_blank">Source Code</a></button>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -289,8 +297,11 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/Robofriends.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Robofriends.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Web Application for finding your RoboFriends!</br>Created with React + HTML/CSS.</p>
+                                    <button class='btn'><a href='https://github.com/GnExia2/RoboFriends' target="_blank">Source Code</a></button>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
@@ -320,6 +331,7 @@
                                     </div>
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/face-recognition.png" alt="" /><!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Web application that allows the site to detect faces in the picture.</br>Created with React + SQL + Clarifi API + HTML/CSS.</p>
+                                    <button class='btn'><a href='https://github.com/GnExia2/face-recognition-brain' target="_blank">Source Code</a></button>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
                             </div>
