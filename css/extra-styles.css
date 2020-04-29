@@ -1,4 +1,16 @@
-.footer-logo {
+.bottom-margin {
+  margin-bottom: 20px;
+}
+
+.list-margin {
+  margin-bottom: 40px;
+}
+
+.spacing-margin {
+  margin-bottom: 20px;
+}
+
+.bootstrap-logo {
   width: 2%;
   height: 2%;
   margin-left: 10px;
